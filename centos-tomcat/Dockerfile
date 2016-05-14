@@ -7,4 +7,4 @@ RUN tar zxf apache-tomcat-9.0.0.M4.tar.gz -C /opt/tomcat
 RUN rm apache-tomcat-9.0.0.M4.tar.gz
 
 EXPOSE 8080
-CMD ["/opt/tomcat/startup.sh"]
+CMD ["/opt/tomcat/apache-tomcat-9.0.0.M4/bin/startup.sh"]
