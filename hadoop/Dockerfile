@@ -7,3 +7,4 @@ RUN mkdir -p /opt/lib \
 
 ENV PATH=${PATH}:/opt/lib/hadoop-3.2.1/bin
 ENV HADOOP_CONF_DIR=/etc/hadoop
+ENV HADOOP_HOME=/opt/lib/hadoop-3.2.1
